@@ -1,0 +1,19 @@
+// 此文件在App.vue中引用
+@import 'src/scss/index.scss';
+// header
+@mixin headerIcon($width, $height, $pos-left, $pos-right) {
+  @include bgImg($width, $height, $pos-left, $pos-right, '/static/img/header/header-sprite.png');
+}
+
+.yinxiang-logo {
+  @include headerIcon(131, 45, -97, 0)
+}
+
+.list-icon{
+  @include headerIcon(20, 20, -28, -28)
+}
+
+.close-icon{
+  @include headerIcon(20, 20, 2, -6)
+}
+
