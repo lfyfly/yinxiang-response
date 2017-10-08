@@ -1,6 +1,6 @@
 # 印象笔记响应式官网首页
 
-# [线上演示](https://lfyfly.github.io/yinxiang-response/)
+# [线上演示](http://lfyfly.gitee.io/yinxiang-response/docs)
 
 ## Build Setup
 
